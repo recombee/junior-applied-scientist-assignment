@@ -244,8 +244,8 @@ We use a fork-based workflow so that your solution stays private to you and the 
    * Under **Advanced -> Remove fork relationship**, remove the link to the original project so your work is not visible to other candidates through the upstream repository.
    * Under **Visibility, project features, permissions**, set the visibility to **Private**.
 3. **Grant reviewer access.** In **Project information -> Members**, add the following users as members (Developer role is sufficient):
-   * `@Kasape`
-   * `@dbohunek`
+   * [@Kasape](https://github.com/Kasape)
+   * [@dbohunek](https://github.com/dbohunek)
 4. **Commit your work to your fork** and push it before the deadline below.
 
 Include any README notes needed to run your solution and to explain the assumptions you made. Do not include database dumps or large downloaded model files unless instructed by the complementary materials.
