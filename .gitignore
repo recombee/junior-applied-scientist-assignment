@@ -1,0 +1,26 @@
+# Raw datasets — regenerate the CSVs with data_prep/prepare_amazon_data.py
+*.jsonl
+*.jsonl.gz
+
+# Generated data — baked into the Docker image, not tracked in the repo
+db/*.csv
+
+# Notebooks / scratch
+*.ipynb
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Model artifacts
+artifacts/*
+!artifacts/.gitkeep
+
+# Caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/

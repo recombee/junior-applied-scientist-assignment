@@ -1,0 +1,16 @@
+Flask>=3.0,<4.0
+gunicorn>=22.0,<23.0
+joblib>=1.4,<2.0
+numpy>=1.26,<3.0
+psycopg[binary]>=3.2,<4.0
+# Official SANSA implementation (https://github.com/glami/sansa); using it is a
+# sanctioned way to solve the SANSA task. scikit-sparse must stay below 0.5:
+# 0.5.0 removed the CHOLMOD API (analyze_AAt) that sansa calls. Building
+# scikit-sparse requires the SuiteSparse headers (libsuitesparse-dev on Debian,
+# `brew install suitesparse` on macOS, `suitesparse` on Arch).
+sansa>=1.1,<2.0
+scikit-sparse>=0.4.8,<0.5
+scipy>=1.12,<2.0
+sentence-transformers>=3.0,<4.0
+SQLAlchemy>=2.0,<3.0
+pytest>=8.0,<9.0
